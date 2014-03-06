@@ -1,2 +1,2 @@
 var bitquote= require('..');
-bitquote();
+bitquote(function(price){console.log(price.subtotal.amount)});

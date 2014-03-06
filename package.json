@@ -1,7 +1,7 @@
 {
   "name": "bitquote",
   "version": "0.0.0",
-  "description": "current price of bitcoin",
+  "description": "current SELL price of bitcoin using Coinbase API",
   "main": "bitquote.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -21,7 +21,6 @@
   },
   "homepage": "https://github.com/litzenberger/bitquote",
   "dependencies": {
-    "request": "^2.34.0",
-    "cheerio": "^0.13.1"
+    "request": "^2.34.0"
   }
 }
